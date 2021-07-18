@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - AF</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header - top-->
+    <header>
+    <div class="header-content">
+        <div class="logo" href="index.html">
+            <a href="index.html"><h1>Aust<b>Flex</b></h1></a> 
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyecto.html">Cursos</a></li>
+                    <li><a href="institucional.html">Institución</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="../Proyectogrupal/php-mysql-crud-master/index.php">Mis cursos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+<!--portada-->
+    <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>
+                Amplia tu Universo
+            </h1>
+            <p>
+                El mundo informatico es todo tuyo, rompe tus limites.
+            </p>
+        </div>
+    </div>
+    <!--Login Register-->
+    <div class="container-login-register">
+        <div class="login-box">
+            <form action="login.php" class="formulario-login">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" placeholder="Correo Electrónico" required="">
+                <input type="password" placeholder="Contraseña" required="">
+                <button>Entrar</button>
+            </form>
+            <form action="php/registro_usuario_be.php" method="POST" class="formulario-register">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre Completo" name="nombre_completo" required="">
+                <input type="text" placeholder="Correo Electrónico" name="correo" required="">
+                <input type="text" placeholder="Usuario" name="usuario" required="" >
+                <input type="password" placeholder="Contraseña" name="contrasena" required="">
+                <button>Registrarse</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Avanzado</title>
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header - top-->
+    <header>
+        <div class="header-content">
+            <div class="logo" href="index.html">
+                <a href="../index.html"><h1>Aust<b>Flex</b></h1></a> 
+             </div>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../proyecto.html">Cursos</a></li>
+                        <li><a href="../institucional.html">Institución</a></li>
+                        <li><a href="../contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h4>Curso Principiante</h4>
+    <form action="signup.php" method="POST">
+        <input name="Nombre" type="text" placeholder="Ingrese su nombre" required="">
+        <input name="Apellido" type="text" placeholder="Ingrese su apellido" required="">
+        <input name="Dni" type="text" placeholder="Ingrese su Doc. de identidad" required="">
+        <input name="email" type="text" placeholder="Ingrese su Email" required="">
+        <input name="Curso" type="radio" placeholder="Curso avanzado" required="">
+        <input name="password" type="password" placeholder="Ingrese su contrasena"required="">
+        <input name="confirm_password" type="password" placeholder="Confirme su contrasena"required="">
+        <input type="button" value="CONFIRMAR" onclick="alert('Ya reservaste tu cupo para el Curso avanzado')"/><br>
+    </form>
+</body>
+</html>
